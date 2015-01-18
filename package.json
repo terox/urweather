@@ -1,0 +1,30 @@
+{
+  "name": "urweather",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "weather",
+    "wh1080",
+    "adapter",
+    "driver",
+    "universal interface"
+  ],
+  "author": "David Pérez Terol <davidtxnet@gmail.com>",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/terox/urweather",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terox/urweather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/terox/urweather/issues"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "node-hid": "^0.3.2"
+  }
+}
