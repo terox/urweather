@@ -1,6 +1,6 @@
 {
   "name": "urweather",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small approach to unify all weather stations in a NodeJS way",
   "keywords": [
     "weather",
