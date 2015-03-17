@@ -1,7 +1,7 @@
 {
   "name": "urweather",
   "version": "0.1.0",
-  "description": "",
+  "description": "Small approach to unify all weather stations in a NodeJS way",
   "keywords": [
     "weather",
     "wh1080",
@@ -24,6 +24,7 @@
     "url": "https://github.com/terox/urweather/issues"
   },
   "dependencies": {
+    "bluebird": "^2.9.14",
     "lodash": "^2.4.1",
     "node-hid": "^0.3.2"
   }
