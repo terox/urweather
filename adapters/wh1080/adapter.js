@@ -89,13 +89,10 @@ Adapter.prototype.getData = function( from, to, callback ) {
       count = 4;
       self.chunk( locs, _data );
     } else {
+    
+      // Remove listeners to avoid "EventEmitter memory leak" on next iteratations
+      self.device.hide.removeListener('data', _data);
 
-      /*var listeners = self.device.hid.listeners('data');
-      if(listeners.length>0) {
-        for(var l=0; l<listeners.length; l++) {
-          self.device.hid.removeListener('data',listeners[l]);
-        }
-      }*/
       callback( new Data(buffer, map) );
     }
   };
