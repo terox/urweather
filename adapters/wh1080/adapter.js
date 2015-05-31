@@ -91,7 +91,7 @@ Adapter.prototype.getData = function( from, to, callback ) {
     } else {
     
       // Remove listeners to avoid "EventEmitter memory leak" on next iteratations
-      self.device.hide.removeListener('data', _data);
+      self.device.hid.removeListener('data', _data);
 
       callback( new Data(buffer, map) );
     }
