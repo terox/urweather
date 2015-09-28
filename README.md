@@ -6,11 +6,8 @@ weather stations information.
 
 ## Requeriments
 
-* node 0.10.x (It works).
+* node 0.x or 4.1.x branch.
 * node-hid dependencies [depending on your system](https://github.com/node-hid/node-hid#prerequisites).
-
-**Note:** ```0.11.x``` and ```0.12.x``` don't work properly in node-hid yet. You can use [NVM](https://github.com/creationix/nvm) to
-switch between node versions. Remember if you use NVM, you must replace ```/usr/local/bin/node``` with the correct version: NPM packet manager by default use this path. It not use the local version of node installed by NVM in your working directory.
 
 ## Installation
 
